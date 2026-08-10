@@ -8,9 +8,9 @@ import streamlit as st
 # container will be joined to; override with an env var when testing locally.
 BACKEND_URL = os.environ.get("SUPERKART_BACKEND_URL", "http://backend:7860")
 
-st.set_page_config(page_title="SuperKart Sales Forecast", page_icon="🛒")
+st.set_page_config(page_title="SuperKart Sales Forecast", page_icon="ðŸ›’")
 
-st.title("🛒 SuperKart Sales Forecast")
+st.title("ðŸ›’ SuperKart Sales Forecast")
 st.caption(
     "Estimate the quarterly sales revenue for a product/store combination, "
     "or upload a CSV file to score many combinations at once."
